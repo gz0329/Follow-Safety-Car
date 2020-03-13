@@ -1,0 +1,71 @@
+{
+    "name": "Follower",
+    "type": "dynamic",
+    "description": "Slow car",
+    "shape": [
+        { "x": 10, "y": 7 },
+        { "x": 4, "y": 7 },
+        { "x": 4, "y": 8 },
+        { "x": 1, "y": 8 },
+        { "x": 1, "y": 7 },
+        { "x": -4, "y": 7 },
+        { "x": -4, "y": 8 },
+        { "x": -7, "y": 8 },
+        { "x": -7, "y": 7 },
+        { "x": -11, "y": 7 },
+        { "x": -11, "y": -7 },
+        { "x": -7, "y": -7 },
+        { "x": -7, "y": -8 },
+        { "x": -4, "y": -8 },
+        { "x": -4, "y": -7 },
+        { "x": 1, "y": -7 },
+        { "x": 1, "y": -8 },
+        { "x": 4, "y": -8 },
+        { "x": 4, "y": -7 },
+        { "x": 10, "y": -7 }
+    ],
+    "friction": {
+      "collision": 1,
+      "linear": 20,
+      "rotational": 1000
+    },
+    "sensors": [
+      { 
+        "type": "range",
+        "location": { "x": 10, "y": 0 },
+        "direction": 0
+      },
+      { 
+        "type": "range",
+        "location": { "x": 10, "y": 8 },
+        "direction": 0.3
+      },
+      { 
+        "type": "range",
+        "location": { "x": 10, "y": -8 },
+        "direction": -0.3
+      },
+      { 
+        "type": "range",
+        "location": { "x": 6, "y": 8 },
+        "direction": 0.8
+      },
+      { 
+        "type": "range",
+        "location": { "x": 6, "y": -8 },
+        "direction": -0.8
+      },
+      { 
+        "type": "range",
+        "location": { "x": 3, "y": 8 },
+        "direction": 1.4
+      },
+      { 
+        "type": "range",
+        "location": { "x": 3, "y": -8 },
+        "direction": -1.4
+      }
+    ],
+    "mass": 0.8,    
+    "controller": "lib/follower.so"
+}
