@@ -7,17 +7,17 @@ In motorsport, a safety car is a car which limits the speed of competing cars on
 
 With self-driving technology, safety car may be able to drive itself in the future.
 
-This project simulates the scenario by using Elma and Enviro. User plays the role of the president of the race event who has the right to:
-> Stop/Run the safety car.
-> Enable/Disable the self-driving mode
-> Eliminate competing cars.
+This project simulates the scenario by using Elma and Enviro. User plays the role of the president of the race event who has the right to: <br />
+Stop/Run the safety car. <br />
+Enable/Disable the self-driving mode. <br />
+Eliminate competing cars. <br />
 
 ENVIRO and Elma links
 ===
-If user is interested in how ENVIRO and Elma works, please feel free to use the following links:
-The git repo for ENVIRO > https://github.com/klavinslab/enviro
-The git repo for Elma > https://github.com/klavinslab/elma
-Documents about Elma > http://klavinslab.org/elma
+If user is interested in how ENVIRO and Elma works, please feel free to use the following links:<br />
+The git repo for ENVIRO > https://github.com/klavinslab/enviro<br />
+The git repo for Elma > https://github.com/klavinslab/elma<br />
+Documents about Elma > http://klavinslab.org/elma<br />
 
 How to Run the Project
 ===
@@ -70,7 +70,7 @@ Change the Look of the Robots
 ---
 The shape of safety car and competing cars are defined in the file `defs/leader.json` and `defs/follower.json`
 Users are welcomed to change the style, however, there is the risk of making the sensors stop working.
-Here is the link to a website which can help users to decide the shape and coordinates:
+Here is the link to a website which can help users to decide the shape and coordinates:<br />
 https://www.math10.com/en/geometry/geogebra/geogebra.html
 
 Stop/Run the Safety Car
@@ -83,11 +83,11 @@ Enable/Disable the Self-driving Mode
 As mentioned in the beginning, users have the right to enable or disable the self-driving mode. To do that, user can click the button on top right of the web browser. It has the label `Auto/Manual`.
 The simulation will start with `Auto` status and once user click the button once, it will enter `Manual` status.
 
-User is able to use keyboard to control the movement of the leader:
-`w` > move forward
-`a` > turn left
-`s` > move backward
-`d` > turn right
+User is able to use keyboard to control the movement of the leader:<br />
+`w` > move forward<br />
+`a` > turn left<br />
+`s` > move backward<br />
+`d` > turn right<br />
 
 Eliminate Race Car
 ---
